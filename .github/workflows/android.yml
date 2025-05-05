@@ -21,7 +21,7 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: Grant execute permission for gradlew
-      run: chmod +x prakt6/gradlew
+      
 
     - name: Build with Gradle
       working-directory: prakt6
